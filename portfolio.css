@@ -1,0 +1,37 @@
+/*nave realted style*/
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.h1{
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+}
+.btn{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 0;font-size: 20px;
+color: whitesmoke;
+font-weight: 700;
+padding: 17px 34px;
+}
+.color{
+    color: #FD6E0A;
+}
+nav > ul {
+    display: flex; 
+    align-items: center;
+}
+nav  li {
+    list-style: none;
+    margin-right: 51px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(131, 121, 121);
+}
